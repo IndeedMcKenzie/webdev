@@ -1,5 +1,5 @@
 # webdev
-### Ans so it begins, my joureny into web devolpment ###
+### And so it begins, my joureny into web devolpment ###
 
 #####################################################
 
