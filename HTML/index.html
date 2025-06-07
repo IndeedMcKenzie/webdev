@@ -24,8 +24,8 @@
     }
     #youtube-link {
       position: absolute;
-      top: 20px;
-      left: 20px;
+      top: 70px;
+      right: 590px;
       padding: 10px 20px;
       background-color: #f26a8d;
       color: black;
@@ -33,12 +33,59 @@
       border-radius: 5px;
       cursor: pointer;
     }
+    #twitch-link {
+      position: absolute;
+      top: 70px;
+      right: 700px;
+      padding: 10px 20px;
+      background-color: #f26a8d;
+      color: black;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #discord-link {
+      position: absolute;
+      top: 70px;
+      right: 489px;
+      padding: 10px 20px;
+      background-color: #f26a8d;
+      color: black;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #about {
+      position: absolute;
+      text-align: center;
+      height: 25Spx;
+      width: 80px;
+      right: 110px;
+      bottom: 350px;
+      color: black
+      border: #f26a8d solid 2px;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #f26a8d; /* Solid color */
+    }
   </style>
   <body>
     <h1 id="title">Welcome traveler!</h1>
     <img id="campfire" src="Images/ulAhIC.gif" alt="A campfire animation" />
-    <a id="youtube-link" href="https://www.youtube.com/" class="button"
-      >Yutub :D</a
-    >
+    <div>
+      <a id="youtube-link" href="https://www.youtube.com/" class="button"
+        >Yutub :D</a
+      >
+    </div>
+    <div id="about">
+      <p>About</p>
+    </div>
+    <div id="twitch-link">
+      <a href="https://www.twitch.tv/" class="button">Twitch</a>
+    </div>
+    <div id="discord-link">
+      <a href="https://discord.com" class="button">Discord</a>
+    </div>
   </body>
 </html>
